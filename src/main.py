@@ -86,4 +86,4 @@ def add_emojis_to_events(token):
         print(new_name)
 
 
-add_emojis_to_events(os.getenv("OPENAI_API_KEY"))
+add_emojis_to_events(os.getenv("GOOGLE_API_TOKEN"))
