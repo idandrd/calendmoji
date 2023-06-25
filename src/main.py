@@ -21,7 +21,7 @@ def is_item_relevant(item):
         'summary', '') if emoji.is_emoji(c)]) == 0
     return (
         is_by_self
-        #         and no_attendees
+        # and no_attendees
         and is_no_emojis
     )
 
